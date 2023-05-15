@@ -1,0 +1,32 @@
+Fonctionnalité du bot : 
+
+Historique de commande : 
+
+
+!lastcommand --> Voir la dernière commande 
+
+!commandall --> Voir toutes les commandes faites par les utilisateurs
+
+!clearcommand --> Effacer l'Historique des commandes
+
+!commanduser "user_id" --> Voir les commandes d'un utilisateur en utilisant l'user_id
+
+
+Commande pour savoir si un sujet est traité :
+!speak "sujet" --> il peut traiter "livres", "films", "anime", "musique".
+
+!recommandations --> permet de parler d'un sujet, ouvre une discussion avec le bot qui permet jusqu'a
+ce que l'on indique que l'on a finis d'obtenir des recommandations selon nos gouts
+
+!historique "user_id" --> permet d'avoir l'historique de messages d'un utilisateur grace à son user_id
+
+
+!symptomes --> Cela lance une discussion avec le bot pour parler de ses symptomes et lui donner des infos sur la maladie qu'il a
+Possible d'écrire reset à tout moment pour repartir au début du tchatbot
+
+!history "user_id" --> qui permet de voir tout l'historique dans le channel de l'utilisateur
+
+!on_message "user_id" "message" --> permet d'envoyer un mp avec le bot à un utilisateur grace à son user_id et noté le message à envoyer
+
+
+Fonctionnalité qui enregistre tout les messages et les mets dans un json 
